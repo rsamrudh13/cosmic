@@ -7,6 +7,12 @@ hl.animation({ leaf = "workspaces", enabled = true, speed = 1.9, bezier = "mwahh
 hl.animation({ leaf = "specialWorkspace", enabled = true, speed = 1, bezier = "mwahhh", style = "slidevert" })
 hl.animation({ leaf = "layers", enabled = true, speed = 1, bezier = "mwahhh", style = "slide" })
 
+hl.gesture({
+	fingers = 3,
+	direction = "horizontal",
+	action = "workspace",
+})
+
 hl.config({
 	general = {
 		gaps_in = 0,
