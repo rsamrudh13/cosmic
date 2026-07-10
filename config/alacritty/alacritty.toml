@@ -4,9 +4,9 @@ import = [
 ]
 
 [font]
-normal.family = "maple mono nf cn"
+normal.family = "IosevkaTermSlabNerdFont"
 bold.style = "SemiBold"
-size = 13
+size = 14
 
 [window]
 opacity = 1

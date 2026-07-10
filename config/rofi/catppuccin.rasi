@@ -1,8 +1,6 @@
 * {
-
     bg:  #1e1e2e;
     fg: #cba6f7;
     white: #cdd6f4;
-    font: "maple mono nf cn 14";
 }
 

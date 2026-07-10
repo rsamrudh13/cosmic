@@ -6,7 +6,7 @@ BASE_DIR="$HOME/.config/cosmic/config"
 gtk3="$HOME/.config/gtk-3.0/settings.ini"
 gtk4="$HOME/.config/gtk-4.0/settings.ini"
 
-startWallpaper=~/.config/cosmic/local/bin/startup-wallpaper
+wallpaper=~/.config/cosmic/local/bin/startupWallpaper
 
 choice=$(find "$BASE_DIR/alacritty" -name "*.toml" ! -name "current-theme.toml" ! -name "alacritty.toml" -printf "%f\n" | sed 's/\.toml//' | rofi -dmenu -i -theme-str 'entry { placeholder: "Themes"; }')
 
@@ -49,13 +49,14 @@ if [ -d "$HOME/.themes/$gtk_theme/gtk-4.0" ]; then
 fi
 
 killall swaybg
-bash $startWallpaper
+
+bash $wallpaper
 
 dunstctl reload
 
 hyprctl reload
 
-bash ~/.local/bin/restart-waybar
+bash ~/.local/bin/restartWaybar
 
 touch "$BASE_DIR/alacritty/alacritty.toml"
 

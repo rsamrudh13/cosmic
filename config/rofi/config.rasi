@@ -4,6 +4,7 @@
 configuration {
     modi: "run,drun,window";
     icon-theme: "Mignon-pastel"; /* Replace with the name of your installed icon theme */
+    font : "IosevkaTermSlabNerdFontPropo 14";
     show-icons: true;
     drun-display-format: "{name}";
     drun-match-fields: "name";

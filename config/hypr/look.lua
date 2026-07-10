@@ -23,14 +23,14 @@ hl.config({
 
 	decoration = {
 		active_opacity = 1,
-		inactive_opacity = 0.6,
+		inactive_opacity = 0.7,
 		border_part_of_window = false,
 		blur = {
-			size = 4,
+			size = 1,
 			passes = 2,
 			new_optimizations = true,
 			noise = 0,
-			brightness = 0.8,
+			brightness = 0.7,
 		},
 
 		shadow = {

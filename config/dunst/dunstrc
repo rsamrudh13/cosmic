@@ -8,7 +8,7 @@ offset = (10, 10)
 gap_size = 8
 
 frame_width = 0
-font = maple mono nf cn 12
+font = IosevkaTermSlab Nerd Font Propo 12
 
 sort = update
 
