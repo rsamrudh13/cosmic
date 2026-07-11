@@ -1,0 +1,5 @@
+export TERMINAL=alacritty
+
+export BROWSER=helium-browser
+
+export EDITOR=nvim
