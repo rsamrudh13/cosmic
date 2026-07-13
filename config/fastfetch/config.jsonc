@@ -1,0 +1,48 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source":"~/.config/fastfetch/planet.txt",
+    "color": {
+      "1":"blue",
+    },
+  },
+  "display": {
+    "separator": "  "
+  },
+  "modules": [
+    "break",
+    "title",
+    "separator",
+    {
+    "type": "os",
+    "key": ""
+    },
+    {
+      "type":"shell",
+      "key": ""
+    },
+    {
+      "type":"packages",
+      "key": "󰏖",
+    },
+    {
+      "type":"uptime",
+      "key": ""
+    },
+    "break",
+    {
+      "type":"memory",
+      "key": "",
+    },
+    {
+      "type":"disk",
+      "key": "",
+    },
+    {
+      "type":"battery",
+      "key": "",
+    },
+
+  ]
+}
