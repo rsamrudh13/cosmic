@@ -33,3 +33,7 @@ rm -rf ~/.config/zathura
 ln -sf ~/.config/cosmic/config/zathura ~/.config/
 
 ln -sf ~/.config/cosmic/config/uwsm ~/.config/
+
+cp ~/.config/cosmic/config/config.fish ~/.config/fish
+
+ln -sf ~/.config/cosmic/config/fastfetch ~/.config/

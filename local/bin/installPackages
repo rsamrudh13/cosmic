@@ -13,16 +13,18 @@ packages=(
   alacritty-sixel-git
   neovim
   rofi
-  maple-mono-nf-cn-unhinted
-  zsh
-  zsh-autosuggestions
-  zsh-syntax-highlighting
+  ttf-iosevkatermslab-nerd
+  fish
   zoxide
   zenity
   xdg-desktop-portal-hyprland
   brightnessctl
   swaybg
   mpd
+  starship
+  lsd
+  udiskie
+  intel-media-driver
   mpc
   rmpc
   impala

@@ -3,3 +3,4 @@
 mkdir -p ~/Pictures
 mkdir -p ~/Pictures/Screenshots
 mkdir -p ~/.config/webApps
+mkdir -p ~/.config/fish
