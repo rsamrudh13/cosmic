@@ -112,3 +112,5 @@ hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl set 5%-"), {
 })
 
 hl.bind("ALT + N", hl.dsp.exec_cmd("~/.local/bin/nightlightToggle"))
+
+hl.bind("ALT + Q", hl.dsp.layout("colresize +conf"))

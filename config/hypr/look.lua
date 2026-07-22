@@ -19,6 +19,11 @@ hl.config({
 		gaps_out = 0,
 		border_size = 0,
 		allow_tearing = true,
+		layout = "scrolling",
+	},
+
+	scrolling = {
+		explicit_column_widths = "0.333, 0.5, 0.667, 1.0",
 	},
 
 	decoration = {
